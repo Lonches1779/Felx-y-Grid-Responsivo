@@ -1,3 +1,50 @@
-#container {
-    background-color: yellow;
+
+
+    
+    @media all and (min-width: 641px) and (max-width: 940px) {
+        #pa_se
+       {
+            
+        display: flex;
+        width: auto;
+        height: 550px;
+        background-color: blue;
+       
+        flex-flow:column-reverse wrap;
+        align-content: center;
+        justify-content: center;
+       }     
+               
+       #seudo
+       {
+        padding: 8px;
+            width: 120px;
+            height: 120px;
+
+       } 
+#Prinsipal
+    { display: grid;
+    width: 9400px;
+    height: 550px;
+    background-color:tomato;
+    
+    grid-template-columns: repeat(3 ,100px);
+    grid-template-rows: repeat(4,100px);
+    grid-template-areas: 
+        "metanf1 metanf2 metanf3  "
+        "metanf5 metanf6 metanf7 "
+        "metanf9 metanf10 metanf11"
+        "metanf4  metanf8  metanf12 "
+     ;
+
 }
+.seudo
+{
+
+   width: 100px;
+   height: 100px;
+
+}
+    }
+
+   

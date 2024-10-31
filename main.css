@@ -5,17 +5,141 @@ padding: 0px;
 margin: 0px;
 border: 0px;
 
+} 
+#Prinsipal
+{ display: grid;
+    width: 900px;
+    height: 550px;
+    background-color: aqua;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(3 ,100px);
+    grid-template-rows: repeat(4,100px);
+    grid-template-areas: 
+        "metanf1 metanf2 metanf3 "
+        "metanf5 metanf6 metanf7"
+        "metanf9 metanf10 metanf11 "
+        "metanf4  metanf8  metanf12"
+     ;
+
 }
-#container {
+/*////////////primeros 4 hijos////////////////7*/
+ div:nth-child(1)
+ {
+    
+    grid-area: metanf2;
+    
+
+ }
+ div:nth-child(2)
+ {
+   
+    grid-area: metanf4;
+  
+ }
+ div:nth-child(3)
+ {
+    
+    grid-area: metanf5;
+    
+ }
+ div:nth-child(4)
+ {
+   
+    grid-area: metanf7;
+    
+ }
+ /*////////////////segundos 4 hijos///////////////////////////*/
+ div:nth-child(5)
+ {
+    
+    grid-area: metanf10;
+    
+ }
+ div:nth-child(6)
+ {
+   
+    grid-area: metanf12;
+    
+ }
+ div:nth-child(7)
+ {
+    
+    grid-area: metanf9;
+   
+ }
+ div:nth-child(8)
+ {
+   
+    grid-area: metanf11;
+    
+ }
+/*///////////////terseros 4 hijos///////////////////77*/
+div:nth-child(9)
+ {
+    
+    grid-area: metanf1;
+    
+ }
+ div:nth-child(10)
+ {
+   
+    grid-area: metanf3;
+    
+ }
+ div:nth-child(11)
+ {
+    
+    grid-area: metanf6;
+   
+ }
+ div:nth-child(12)
+ {
+   
+    grid-area: metanf8;
+    
+ }
+/*///////////////finaldel////////////////////*/
+#container 
+{
+  
     background-color: red;
     width: 400px;
     height: 500px;
+
 }
-.nav
+
+.hijo
 {
 
+     display: grid;
+     justify-items: center;
+     padding: 0px;
+
+}
+.navv
+{
+    display: flex;
     width: auto;
     height: 75px;
     background-color: blanchedalmond;
+    justify-content:space-evenly;
+    align-items:center;
 
 }
+#mou{
+    display: grid;
+    justify-content: center;}
+
+#padre_seudo
+{
+
+    display: flex;
+    width: auto;
+    height: auto;
+    
+   
+}
+
+  
+

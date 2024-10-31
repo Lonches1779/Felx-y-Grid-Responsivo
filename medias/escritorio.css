@@ -1,0 +1,53 @@
+
+@media all and (min-width: 941px) {
+    #pa_se
+    {
+    
+       display: flex;
+       width: auto;
+       height: 550px;
+       background-color: yellow;
+      
+       flex-flow:column-reverse wrap;
+       align-content: center;
+       justify-content: center;
+          
+            
+    }
+    #seudo
+    {
+       padding: 16px;
+         width: 150px;
+         height: 150px;
+    
+    }
+    
+
+/*//////////////////////////////////////////////////*/
+#Prinsipal
+{ display: grid;
+    width: 1116px;
+    height: 550px;
+    background-color:chartreuse;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4 ,100px);
+    grid-template-rows: repeat(3,100px);
+    grid-template-areas: 
+        "metanf1 metanf2 metanf3 metanf4 "
+        "metanf5 metanf6 metanf7  metanf8"
+        "metanf9 metanf10 metanf11 metanf12"
+        
+     ;
+
+}
+
+.seudo
+{
+
+   width: 100px;
+   height: 100px;
+
+}
+
+}
